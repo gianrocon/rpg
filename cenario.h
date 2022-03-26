@@ -1,3 +1,5 @@
+#pragma once
+
 #include <vector>
 #include "jogador.h"
 #include "npc.h"

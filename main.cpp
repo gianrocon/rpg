@@ -5,7 +5,8 @@
 int main()
 {
     Gerenciador gerente(10);
-    // gerente.render.renderizar(gerente.cenario)
+    Cenario& c = gerente.getCenario();
+    gerente.render.renderizar(c);
     
     
     // turno...
